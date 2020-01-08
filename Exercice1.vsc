@@ -1,0 +1,16 @@
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ mkdir cli_tmp
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ touch cli_tmp/je_suis_dans_tmp.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd cli_tmp
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/cli_tmp$ rm  je_suis_dans_tmp.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/cli_tmp$ cd ..
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd ..
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ rm -r cli_tmp
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ mkdir grand_parent parent grand_frere grande_soeur ami connaissances
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd grand_frere
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/grand_frere$ touch bachir
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/grand_frere$ mv  /home/wakasso-furtif/Documents/CLI/grand_frere/bachir /home/wakasso-furtif/Documents/CLI/ami
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/grand_frere$ cd ..
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cp -r /home/wakasso-furtif/Documents/CLI/ami /home/wakasso-furtif/Documents/CLI/parent
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ pwd 
+/home/wakasso-furtif/Documents/CLI
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd /

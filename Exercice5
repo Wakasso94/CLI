@@ -1,0 +1,21 @@
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ mkdir exo5
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd exo5
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ mkdir ma_classe
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ touch mes_camarades.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ gedit mes_camarades.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ cat mes_camarades.txt
+Wahab
+Rabiou
+Hassia
+A.Aziz
+Omar-BEN
+OMAR
+...
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ touch .surveillant
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ ls -a
+.  ..  ma_classe  mes_camarades.txt  .surveillant
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ rm -r .surveillant
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ rm -r ma_classe
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$ ls
+mes_camarades.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo5$

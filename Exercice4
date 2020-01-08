@@ -1,0 +1,17 @@
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ pwd
+/home/wakasso-furtif/Documents/CLI
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ mkdir exo4
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI$ cd exo4
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4$ touch .configuration
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4$ ls -a
+.  ..  .configuration
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4$ mkdir creation crayons
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4$ cd crayons
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/crayons$ touch couleur.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/crayons$ mv couleur.txt color.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/crayons$ cd ..
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4$ cd creation
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/creation$ touch gomme.txt
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/creation$ mv /home/wakasso-furtif/Documents/CLI/exo4/creation/gomme.txt /home/wakasso-furtif/Documents/CLI/exo4/crayons
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:~/Documents/CLI/exo4/creation$ cd /
+wakasso-furtif@wakassofurtif-TECRA-Z40-A:/$ cd /home/wakasso-furtif/Documents/CLI/exo4/creation
